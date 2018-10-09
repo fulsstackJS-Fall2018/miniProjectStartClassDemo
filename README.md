@@ -1,6 +1,6 @@
 # miniProjectStartClassDemo
 
-###This is the project we did together in the class with the following changes:
+### This is the project we did together in the class with the following changes:
 
 
 - “completed” the makeTestData.js method, and added a small check to verify the behaviour of the two virtuals in LocationBlog.js
