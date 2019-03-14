@@ -19,8 +19,8 @@ describe("Testing the User Facade", function () {
     await dbSetup(require("../settings").TEST_DB_URI);
   })
 
-  after(function () {
-    mongoose.connection.close();
+  after(async function () {
+    await mongoose.disconnect();
   })
   
   var users = [];

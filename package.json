@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "withnodemon": "SET DEBUG=miniproject:* & nodemon ./bin/www",
+    "dev": "SET DEBUG=miniproject:* & nodemon ./bin/www",
     "test": "SET DEBUG=miniproject:* & mocha -w"
   },
   "dependencies": {

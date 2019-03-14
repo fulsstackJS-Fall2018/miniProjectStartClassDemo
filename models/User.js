@@ -30,5 +30,5 @@ UserSchema.pre("update",function(next){
  this.update({},{$set : {lastUpdated: new Date()}});
  next();
 })
-
-module.exports = mongoose.model("User",UserSchema);
+var User = mongoose.model("User",UserSchema);
+module.exports = User;

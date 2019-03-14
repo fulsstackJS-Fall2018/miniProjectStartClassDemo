@@ -1,4 +1,4 @@
-require("./dbSetup.js")();
+require("./dbSetup.js")(require("./settings").DEV_DB_URI);
 
 var User = require("./models/User.js");
 var LocationBlog = require("./models/LocationBlog.js");
